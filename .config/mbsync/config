@@ -1,0 +1,24 @@
+IMAPStore matthew@matthew-kennedy.com-remote
+Host mail.matthew-kennedy.com
+Port 993
+User matthew@matthew-kennedy.com
+PassCmd "pass matthew@matthew-kennedy.com"
+AuthMechs LOGIN
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore matthew@matthew-kennedy.com-local
+Subfolders Verbatim
+Path /home/matthewkennedy/.local/share/mail/matthew@matthew-kennedy.com/
+Inbox /home/matthewkennedy/.local/share/mail/matthew@matthew-kennedy.com/INBOX
+
+Channel matthew@matthew-kennedy.com
+Expunge Both
+Far :matthew@matthew-kennedy.com-remote:
+Near :matthew@matthew-kennedy.com-local:
+Patterns * !"[Gmail]/All Mail" !"*fts-flatcurve*" !"*virtual*"
+Create Both
+SyncState *
+MaxMessages 0
+ExpireUnread no
+# End profile

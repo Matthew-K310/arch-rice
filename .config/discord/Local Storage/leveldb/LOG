@@ -1,0 +1,5 @@
+2025/07/04-00:56:53.152 ab4f Creating DB /home/matthewkennedy/.config/discord/Local Storage/leveldb since it was missing.
+2025/07/04-00:56:53.293 ab4f Reusing MANIFEST /home/matthewkennedy/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/07/04-01:01:03.223 ab50 Level-0 table #5: started
+2025/07/04-01:01:03.287 ab50 Level-0 table #5: 1557750 bytes OK
+2025/07/04-01:01:03.319 ab50 Delete type=0 #3

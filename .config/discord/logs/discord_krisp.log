@@ -1,0 +1,9 @@
+[2025-Jul-04 00:57:06.388 -05:00][43956:43956][info ] Logging initialized
+[2025-Jul-04 00:57:06.388 -05:00][43956:43956][info ] Initializing krisp SDK...
+[2025-Jul-04 00:57:06.388 -05:00][43956:43956][info ] DoKrispInitialize
+[2025-Jul-04 00:57:06.904 -05:00][43956:43956][info ] LoadDynamicKrisp
+[2025-Jul-04 00:57:06.904 -05:00][43956:43956][info ] Did not find KRISP_DYLIB_PATH, skipping dynamic loading
+[2025-Jul-04 00:57:06.904 -05:00][43956:43956][info ] Initializing Krisp SDK in PID 43956, addr 0x7f9d99b8d8e0
+[2025-Jul-04 00:57:07.222 -05:00][43956:43956][info ] Initialized Krisp SDK successfully
+[2025-Jul-04 00:57:07.222 -05:00][43956:43956][info ] Krisp SDK initialized
+[2025-Jul-04 00:58:17.552 -05:00][43956:43956][info ] KrispNCSetModel: model = 
