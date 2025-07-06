@@ -1,9 +1,0 @@
-[2025-Jul-05 20:54:43.203 -05:00][ 5480: 5480][info ] Logging initialized
-[2025-Jul-05 20:54:43.203 -05:00][ 5480: 5480][info ] Initializing krisp SDK...
-[2025-Jul-05 20:54:43.203 -05:00][ 5480: 5480][info ] DoKrispInitialize
-[2025-Jul-05 20:54:44.440 -05:00][ 5480: 5480][info ] LoadDynamicKrisp
-[2025-Jul-05 20:54:44.440 -05:00][ 5480: 5480][info ] Did not find KRISP_DYLIB_PATH, skipping dynamic loading
-[2025-Jul-05 20:54:44.440 -05:00][ 5480: 5480][info ] Initializing Krisp SDK in PID 5480, addr 0x7f1aa158d8e0
-[2025-Jul-05 20:54:44.761 -05:00][ 5480: 5480][info ] Initialized Krisp SDK successfully
-[2025-Jul-05 20:54:44.761 -05:00][ 5480: 5480][info ] Krisp SDK initialized
-[2025-Jul-05 20:55:47.476 -05:00][ 5480: 5480][info ] KrispNCSetModel: model = 
