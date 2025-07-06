@@ -14,6 +14,8 @@ export TERMINAL="st"
 export TERMINAL_PROG="st"
 export BROWSER="firefox"
 
+export TERM=xterm
+
 # Change the default crypto/weather monitor sites.
 # export CRYPTOURL="rate.sx"
 # export WTTRURL="wttr.in"

@@ -12,7 +12,7 @@ read FORMAT <"$FORMAT_FILE"
 # browser and mpv should never display if paused.
 if [ -z "$MUSIC_PLAYING_PLAYERS" ]; then
 	# if MUSIC_PLAYING_PLAYERS is not set, use the default players
-	MUSIC_PLAYING_PLAYERS="firefox mpd mpv"
+	MUSIC_PLAYING_PLAYERS="chromium gecko firefox mpd mpv"
 fi
 
 [ "$FORMAT" -eq 0 ] && META="{{ trunc(artist,17) }} - {{ trunc(title,17) }}" || META="{{ trunc(album,17) }} - {{ trunc(title,17) }}"

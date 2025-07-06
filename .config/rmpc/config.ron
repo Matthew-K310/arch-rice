@@ -6,7 +6,6 @@
     password: None,
     theme: None,
     cache_dir: "$HOME/.cache/rmpc",
-    on_song_change: ["$XDG_CONFIG_HOME/rmpc/notify"],
     volume_step: 5,
     max_fps: 30,
     scrolloff: 0,
