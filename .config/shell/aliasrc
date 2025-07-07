@@ -51,14 +51,15 @@ alias \
 
 alias \
 	lf="lfub" \
-	y="lfub" \
+	y="lfcd" \
 	magit="nvim -c MagitOnly" \
-	ref='shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutenvrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc'
+	ref='shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutenvrc'
 
 # Better cds
 alias \
 	dev="cd ~/Developments" \
 	vault="cd ~/Notes/obsidian-vault" \
+	til="cd ~/Notes/til" \
 	info="fastfetch"
 
 alias \
@@ -73,5 +74,5 @@ alias \
 	lc='linear-cli issues create' \
 	lls='linear-cli issues list'
 
-alias ff="fd --type f | fzf | sed 's/\ /\\\ /g' "
-alias ffn="fd --type f | fzf | sed 's/\ /\\\ /g' | xargs nvim"
+alias ff="fd --type f | fzf | sed 's/\ /\\\ /g' "              # search but fancy
+alias ffn="fd --type f | fzf | sed 's/\ /\\\ /g' | xargs nvim" # search and open file in nvim

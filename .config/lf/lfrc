@@ -182,6 +182,9 @@ map gn cd ~/.config/nvim
 map gD cd ~/Downloads
 map gd cd ~/Developer
 map gw cd ~/Developer/web-dev
+map gN cd ~/Notes
+map go cd ~/Notes/obsidian-vault
+map gt cd ~/Notes/today_i_learned
 map gv cd ~/Media
 map gp cd ~/Media/wallpapers
 map gm cd ~/Media/Music
